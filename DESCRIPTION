@@ -1,0 +1,19 @@
+Package: ExpressionCellNet
+Type: Package
+Title: Network-Based Analysis of Gene Expression Perturbations
+Version: 0.1.0
+Authors@R: 
+    person("Ehsan", "Keramati", email = "ehsan.keramati14@gmail.com", role = c("aut", "cre"))
+Description: ExpressionCellNet is an R package for network-centric analysis of
+    high-throughput gene expression data that integrates curated gene–gene
+    interaction networks. The framework supports in silico perturbation analysis
+    and network topology assessment for hypothesis generation.
+License: GPL-3
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: igraph, ggplot2, uwot, Metrics, crayon, enrichR
+RoxygenNote: 7.3.3
+NeedsCompilation: no
+Packaged: 2025-12-17 16:33:03 UTC; Ehsan
+Author: Ehsan Keramati [aut, cre]
+Maintainer: Ehsan Keramati <ehsan.keramati14@gmail.com>
